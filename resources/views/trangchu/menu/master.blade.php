@@ -49,15 +49,15 @@
     <!-- Icon css link -->
     <link href="sunkun/vendors/themify-icon/themify-icons.css" rel="stylesheet">
     <link href="sunkun/css/font-awesome.min.css" rel="stylesheet">
-    <link href="sunkun/vendors/linears-icon/style.css" rel="stylesheet">
+    {{--  <link href="sunkun/vendors/linears-icon/style.css" rel="stylesheet">  --}}
     <!-- Bootstrap -->
     <link href="sunkun/css/bootstrap.min.css" rel="stylesheet">
     <!-- RS5.0 Layers and Navigation Styles -->
-    <link rel="stylesheet" type="text/css" href="sunkun/vendors/revolution/css/layers.css">
-    <link rel="stylesheet" type="text/css" href="sunkun/vendors/revolution/css/navigation.css">
+    {{--  <link rel="stylesheet" type="text/css" href="sunkun/vendors/revolution/css/layers.css">  --}}
+    {{--  <link rel="stylesheet" type="text/css" href="sunkun/vendors/revolution/css/navigation.css">  --}}
     <link rel="stylesheet" type="text/css" href="sunkun/vendors/revolution/css/settings.css">
     <!-- Extra plugin css -->
-    <link href="sunkun/vendors/animate-css/animate.css" rel="stylesheet">
+    {{--  <link href="sunkun/vendors/animate-css/animate.css" rel="stylesheet">  --}}
     <link href="sunkun/vendors/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="sunkun/css/style.css" rel="stylesheet">
     <link href="sunkun/css/responsive.css" rel="stylesheet">
@@ -508,7 +508,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="right_detail_img">
-                        <img src="sunkun/img/spatk.png" alt="an thấp khớp">
+                        <img src="sunkun/img/spatk.jpg" alt="an thấp khớp">
                     </div>
                 </div>
             </div>
@@ -623,19 +623,19 @@
             <div class="expert_slider owl-carousel">
                 <div class="item">
                     <div class="expert_inner">
-                        <img src="sunkun/img/expert-team/atk5.png" alt="an thap khop">
+                        <img src="sunkun/img/expert-team/atk5.jpg" alt="an thap khop">
 
                     </div>
                 </div>
                 <div class="item">
                     <div class="expert_inner">
-                        <img src="sunkun/img/expert-team/atk6.png" alt="an thap khop">
+                        <img src="sunkun/img/expert-team/atk6.jpg" alt="an thap khop">
 
                     </div>
                 </div>
                 <div class="item">
                     <div class="expert_inner">
-                        <img src="sunkun/img/expert-team/atk7.png" alt="an thap khop">
+                        <img src="sunkun/img/expert-team/atk7.jpg" alt="an thap khop">
                         <div class="expert_hover">
 
                         </div>
@@ -643,7 +643,7 @@
                 </div>
                 <div class="item">
                     <div class="expert_inner">
-                        <img src="sunkun/img/expert-team/atk8.png" alt="an thap khop">
+                        <img src="sunkun/img/expert-team/atk8.jpg" alt="an thap khop">
 
                     </div>
                 </div>
@@ -823,13 +823,16 @@
     <script src="sunkun/vendors/revolution/js/jquery.themepunch.tools.min.js"></script>
     <script src="sunkun/vendors/revolution/js/jquery.themepunch.revolution.min.js"></script>
 
+
+    <script type="text/javascript" src="sunkun/vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script src="sunkun/vendors/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script src="sunkun/vendors/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script src="sunkun/vendors/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+
     <!-- Extra plugin js -->
     <script src="sunkun/vendors/owlcarousel/owl.carousel.min.js"></script>
     <script src="sunkun/vendors/flipster/jquery.flipster.min.js"></script>
-    <!-- contact js -->
-    <script src="sunkun/js/jquery.form.js"></script>
-    <script src="sunkun/js/jquery.validate.min.js"></script>
-    <script src="sunkun/js/contact.js"></script>
+
     <!--gmaps Js-->
     <script src="sunkun/js/gmaps.min.js"></script>
     <script src="sunkun/js/theme.js"></script>
@@ -876,7 +879,18 @@
             if (exist) {
                 alert(msg);
             }
-        </script>
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138944058-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-138944058-1');
+    </script>
+
 
 </body>
 
