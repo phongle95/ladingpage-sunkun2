@@ -18,46 +18,29 @@
     <!--meta google-->
     <meta itemprop="name" content="Tỏi đen 1 nhánh sunkun lên men 90 ngày và thảo dược thành phần và hàm lượng có trong thảo dược : Cây hy thiêm thảo ,Độc hoạt ,Đỗ trọng ,Ngưu tất ,Xuyên khung ,Đương quy và các dược liệu quý khác" />
     <meta itemprop="description" content="Liệu trình 10 ngày đã được thử nghiệm và sử dụng bởi rất nhiều người có bệnh đau nhức xương khớp. 97% người sử dụng điều hài lòng, và kết thúc đau khớp trong 10 ngày đầu tiên. 3% còn lại thì khỏi hoàn toàn trong vòng 2 tuần" />
-    <meta itemprop="image" content="sunkun/img/expert-team/atk5.png"/>
+    <meta itemprop="image" content="sunkun/img/expert-team/atk5.png" />
     <meta name="og:url" content="{{ route('trangchu.menu.master') }}" />
     <!-- Structure data -->
     <script type="application/ld+json">
-        {
-            "@context": "http://schema.org",
-            "@type": "Organization",
-            "address": {
-                "@type": "PostalAddress",
-                "addressLocality": "Việt Nam",
-                "addressRegion": "TP Đà Nẵng",
-                "streetAddress": "121 Cù Chính Lan, Thành Phố Đà Nẵng"
-            },
-            "description": "Liệu trình 10 ngày đã được thử nghiệm và sử dụng bởi rất nhiều người có bệnh đau nhức xương khớp. 97% người sử dụng điều hài lòng, và kết thúc đau khớp trong 10 ngày đầu tiên. 3% còn lại thì khỏi hoàn toàn trong vòng 2 tuần",
-            "name": "An Thap Khop",
-            "telephone": "0989274727"
-        }
-        </script>
-        <script type="application/ld+json">
-        {
-            "@context": "http://schema.org",
-            "@type": "WebSite",
-            "name": "Lysonvn",
-            "url": "https://www.sunkun.vn/",
-            "sameAs": ["https://www.facebook.com/toidensunkun.vn/"]
-        }
-        </script>
+        { "@context": "http://schema.org", "@type": "Organization", "address": { "@type": "PostalAddress", "addressLocality": "Việt Nam", "addressRegion": "TP Đà Nẵng", "streetAddress": "121 Cù Chính Lan, Thành Phố Đà Nẵng" }, "description": "Liệu trình 10 ngày đã được thử nghiệm và sử dụng bởi rất nhiều người có bệnh đau nhức xương khớp. 97% người sử dụng điều hài lòng, và kết thúc đau khớp trong 10 ngày đầu tiên. 3% còn lại thì khỏi hoàn toàn trong vòng 2 tuần", "name": "An Thap Khop", "telephone": "0989274727" }
+    </script>
+    <script type="application/ld+json">
+        { "@context": "http://schema.org", "@type": "WebSite", "name": "Lysonvn", "url": "https://www.sunkun.vn/", "sameAs": ["https://www.facebook.com/toidensunkun.vn/"] }
+    </script>
 
     <!-- Icon css link -->
     <link href="sunkun/vendors/themify-icon/themify-icons.css" rel="stylesheet">
-    <link href="sunkun/css/font-awesome.min.css" rel="stylesheet">
-    {{--  <link href="sunkun/vendors/linears-icon/style.css" rel="stylesheet">  --}}
+    <link href="sunkun/css/font-awesome.min.css" rel="stylesheet"> {{--
+    <link href="sunkun/vendors/linears-icon/style.css" rel="stylesheet"> --}}
     <!-- Bootstrap -->
     <link href="sunkun/css/bootstrap.min.css" rel="stylesheet">
     <!-- RS5.0 Layers and Navigation Styles -->
-    {{--  <link rel="stylesheet" type="text/css" href="sunkun/vendors/revolution/css/layers.css">  --}}
-    {{--  <link rel="stylesheet" type="text/css" href="sunkun/vendors/revolution/css/navigation.css">  --}}
+    {{--
+    <link rel="stylesheet" type="text/css" href="sunkun/vendors/revolution/css/layers.css"> --}} {{--
+    <link rel="stylesheet" type="text/css" href="sunkun/vendors/revolution/css/navigation.css"> --}}
     <link rel="stylesheet" type="text/css" href="sunkun/vendors/revolution/css/settings.css">
     <!-- Extra plugin css -->
-    {{--  <link href="sunkun/vendors/animate-css/animate.css" rel="stylesheet">  --}}
+    <link href="sunkun/vendors/animate-css/animate.css" rel="stylesheet">
     <link href="sunkun/vendors/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="sunkun/css/style.css" rel="stylesheet">
     <link href="sunkun/css/responsive.css" rel="stylesheet">
@@ -281,14 +264,8 @@
                 </div>
                 <div class="col-md-4">
                     <div class="feature_mobile">
-                        <img src="sunkun/img/feature-m-slider/khung.png" alt="">
-                        <div class="feature_mobile_slider owl-carousel">
-                            <div class="item"><img src="sunkun/img/feature-m-slider/k1.jpg" alt="Đau khớp"></div>
-                            <div class="item"><img src="sunkun/img/feature-m-slider/k2.jpg" alt="Đau khớp"></div>
-                            <div class="item"><img src="sunkun/img/feature-m-slider/k3.jpg" alt="Đau khớp"></div>
-                            <div class="item"><img src="sunkun/img/feature-m-slider/k4.jpg" alt="Đau khớp"></div>
-                            <div class="item"><img src="sunkun/img/feature-m-slider/k5.jpg" alt="Đau khớp"></div>
-                        </div>
+                        <img src="sunkun/img/feature-m-slider/xuongkhop.jpg" alt="dau xuong khớp">
+
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -707,7 +684,7 @@
                                 <p style="text-align:center;font-weight:600;font-size:20px;">Cần tư vấn điền vào biểu mẫu sau dưới đây</p>
                                 <br>
                                 <form action="{{ route('front.email') }}" method="POST" class="comment_form_inner">
-                                        <input type="hidden" name="_token" value="{{ csrf_token() }}" />
+                                    <input type="hidden" name="_token" value="{{ csrf_token() }}" />
                                     <div class="form-group col-md-12">
                                         <input type="text" class="form-control" id="name" name="name" placeholder="Nhập Tên Của Bạn">
                                     </div>
@@ -767,7 +744,7 @@
                             </div>
                             <div class="media">
                                 <div class="media-left">
-                                    <i class="fa fa-clock-o"></i>
+                                    <i class="fa fa-star    "></i>
                                 </div>
                                 <div class="media-body">
                                     <h4>Chúng Tôi Là Ai?</h4>
@@ -823,7 +800,6 @@
     <script src="sunkun/vendors/revolution/js/jquery.themepunch.tools.min.js"></script>
     <script src="sunkun/vendors/revolution/js/jquery.themepunch.revolution.min.js"></script>
 
-
     <script type="text/javascript" src="sunkun/vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
     <script src="sunkun/vendors/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
     <script src="sunkun/vendors/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
@@ -872,25 +848,27 @@
         }, 6000);
     </script>
     <script>
-            var msg = '{{Session::get('
-            alert ')}}';
-            var exist = '{{Session::has('
-            alert ')}}';
-            if (exist) {
-                alert(msg);
-            }
+        var msg = '{{Session::get('
+        alert ')}}';
+        var exist = '{{Session::has('
+        alert ')}}';
+        if (exist) {
+            alert(msg);
+        }
     </script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138944058-1"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
 
-    gtag('config', 'UA-138944058-1');
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-138944058-1');
     </script>
-
 
 </body>
 
